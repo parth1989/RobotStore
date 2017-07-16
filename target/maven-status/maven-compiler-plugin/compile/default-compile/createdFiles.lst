@@ -1,0 +1,5 @@
+com\robotstore\ApplicationEntry.class
+com\robotstore\service\RobotStoreServiceImpl.class
+com\robotstore\service\repository\RobotRepository.class
+com\robotstore\service\RobotStoreService.class
+com\robotstore\domain\Robot.class
