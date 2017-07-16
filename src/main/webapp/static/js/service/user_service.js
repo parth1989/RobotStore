@@ -2,7 +2,7 @@
 
 angular.module('myApp').factory('UserService', ['$http', '$q', function($http, $q){
 
-    var REST_SERVICE_URI = 'http://localhost:8080/robot/';
+    var REST_SERVICE_URI = 'https://localhost:8080/robot/';
 
     var factory = {
         fetchAllUsers: fetchAllUsers,
@@ -15,7 +15,7 @@ angular.module('myApp').factory('UserService', ['$http', '$q', function($http, $
 
     function fetchAllUsers() {
     	
-    	var uri = 'http://localhost:8080/findAllRobots/';
+    	var uri = 'https://localhost:8080/findAllRobots/';
     	var deferred = $q.defer();
         $http.get(uri)
             .then(
