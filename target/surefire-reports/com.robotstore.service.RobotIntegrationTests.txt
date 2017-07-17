@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.robotstore.service.RobotIntegrationTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.78 sec - in com.robotstore.service.RobotIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.748 sec - in com.robotstore.service.RobotIntegrationTests
