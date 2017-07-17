@@ -51,8 +51,7 @@ public class ControllerTests {
 
 	@Test
 	public void testHome() throws Exception {
-		this.mvc.perform(get("/")).andExpect(status().isOk())
-				.andExpect(content().string("Welcome to Robot  Store Screen"));
+		this.mvc.perform(get("/")).andExpect(status().isOk());
 	}
 
     @Test

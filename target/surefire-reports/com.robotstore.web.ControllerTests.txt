@@ -1,23 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.robotstore.web.ControllerTests
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.579 sec <<< FAILURE! - in com.robotstore.web.ControllerTests
-testHome(com.robotstore.web.ControllerTests)  Time elapsed: 0.624 sec  <<< FAILURE!
-java.lang.AssertionError: Response content expected:<Welcome to Robot  Store Screen> but was:<<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
-    <head>
-        <title>Spring Security Example</title>
-    </head>
-    <body>
-        <h1>Welcome!</h1>
-
-        <p>Click <a href="/hello">here</a> to see a greeting.</p>
-    </body>
-</html>>
-	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:60)
-	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:89)
-	at org.springframework.test.web.servlet.result.ContentResultMatchers$5.match(ContentResultMatchers.java:144)
-	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:149)
-	at com.robotstore.web.ControllerTests.testHome(ControllerTests.java:55)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.782 sec - in com.robotstore.web.ControllerTests
